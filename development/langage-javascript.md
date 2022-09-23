@@ -17,7 +17,7 @@ Les promises sont un objet js qui contient la réponse à une action future (qui
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté ✔️
 
 //const Wilder = ({ wilder: { id, name, skills = [] }, setWilders }: WilderProps) => {
 //  const handleDelete = async () => {
