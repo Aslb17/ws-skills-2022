@@ -19,7 +19,25 @@ Sert à étendre les propriétés du parent à l'enfant
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
+
+###création d'une interface pour typer la fonction Wilder
+
+interface WilderProps {
+  wilder: IWilder
+  setWilders: Dispatch<SetStateAction<IWilder[]>>
+}
+
+const Wilder = ({ wilder: { id, name, skills = [] }, setWilders }: WilderProps) => {
+  const handleDelete = async () => {
+    try {
+      setWilders((oldList) => oldList.filter((wilder) => wilder.id !== id));
+      await deleteWilder(id);
+    } catch (err) {
+      console.error(err);
+    };
+  };
+
 
 ### Utilisation dans un projet ❌ / ✔️
 
