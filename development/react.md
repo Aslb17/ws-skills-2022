@@ -6,10 +6,14 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'état (_state_) pour contrôler l'affichage d'un composant ❌ / ✔️
-- les composants enfants et les _props_ qu'on leur passe ❌ / ✔️
+- l'état (_state_) pour contrôler l'affichage d'un composant ✔️
+Le (_state_) s'utilise au sein d'un composant. Il prend en paramètre l'état initial du composant et retourne 2 éléments : l'état que vous manipulez et la fonction qui va mettre à jour cet état.
+- les composants enfants et les _props_ qu'on leur passe ✔️
+réutilisation des composants grâce aux props tansmis par les parents.
 - le déclenchement d'instructions en fonction des actions de l'utilisateur ❌ / ✔️
+
 - le déclenchement d'instructions en fonction de l'étape du cycle de vie du composant ou du changement de valeur de ses props ❌ / ✔️
+- 
 - l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant
 - l'état stocké dans un composant avec un _context provider_ et accessible dans ses descendants via `useContext` ❌ / ✔️
 
