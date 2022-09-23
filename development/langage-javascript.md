@@ -19,15 +19,17 @@ Les promises sont un objet js qui contient la réponse à une action future (qui
 
 ### Un exemple de code commenté ✔️
 
-//const Wilder = ({ wilder: { id, name, skills = [] }, setWilders }: WilderProps) => {
-//  const handleDelete = async () => {
-//    try {
-//      setWilders((oldList) => oldList.filter((wilder) => wilder.id !== id));
-//      await deleteWilder(id);
-//    } catch (err) {
-//      console.error(err);
-//    };
-//  }; 
+### Exemple de fonction fléchée
+
+const Wilder = ({ wilder: { id, name, skills = [] }, setWilders }: WilderProps) => {
+  const handleDelete = async () => {
+    try {
+      setWilders((oldList) => oldList.filter((wilder) => wilder.id !== id));
+      await deleteWilder(id);
+    } catch (err) {
+      console.error(err);
+    };
+  }; 
 
 ### Utilisation dans un projet ❌ / ✔️
 
