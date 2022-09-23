@@ -1,5 +1,4 @@
 # Langage Javascript
-Test
 
 > ❌ A travailler
 
@@ -7,18 +6,28 @@ Test
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
+- les `structures` de base du langage ✔️
+concaténation/template strings, fonctions fléchées, déstructuration, rest, spread operator, import/export
+- les normes `ecmascript` ✔️
+ecmascript 6
+- l'utilisation de l'`asynchrone` ✔️
+- Utilisation try/catch, async/await
+Les promises sont un objet js qui contient la réponse à une action future (qui peut réussir ou échouer). 
 - les spécifités du mot-clef `this` ❌ / ✔️
 
 ## 💻 Je code en Javascript
 
 ### Un exemple de code commenté ❌ / ✔️
 
-```javascript
-(e) => mc2;
-```
+//const Wilder = ({ wilder: { id, name, skills = [] }, setWilders }: WilderProps) => {
+//  const handleDelete = async () => {
+//    try {
+//      setWilders((oldList) => oldList.filter((wilder) => wilder.id !== id));
+//      await deleteWilder(id);
+//    } catch (err) {
+//      console.error(err);
+//    };
+//  }; 
 
 ### Utilisation dans un projet ❌ / ✔️
 
